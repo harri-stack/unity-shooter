@@ -28,3 +28,6 @@ I researched the equation for vertical motion and integrated that into my script
 
 Player movement + FPS camera controls and gravity added
 
+### Other things
+
+Tested out pushes with Git; learned basics
