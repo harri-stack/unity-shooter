@@ -12,13 +12,13 @@ Fix was moving the speed reset line inside of the loop
 
 
 
-\## Another problem
+## Another problem
 
 The jump physics were weird and destroyed
 
 
 
-\## Solution
+## Solution
 
 I researched the equation for vertical motion and integrated that into my script 
 
