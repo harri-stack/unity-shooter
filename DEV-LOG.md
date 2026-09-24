@@ -37,3 +37,13 @@ Tested out pushes with Git; learned basics
 ### Additions to the game
 
 Added a gun + bob and sway physics using a script I stole from a larger game I'm working on
+
+## 24/09/26
+
+### Problem
+
+Bullets were spawning at the wrong co ordinates despite the script saying where to appear
+
+### Solution
+
+The bullet prefab had baked co ordinates into it. Debugged using debug.log to narrow down the problem until it was clear the script was working fine. Simply reset the prefab co ordinates to 0,0,0 and let the script have full manipulation
