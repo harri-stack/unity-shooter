@@ -47,3 +47,7 @@ Bullets were spawning at the wrong co ordinates despite the script saying where 
 ### Solution
 
 The bullet prefab had baked co ordinates into it. Debugged using debug.log to narrow down the problem until it was clear the script was working fine. Simply reset the prefab co ordinates to 0,0,0 and let the script have full manipulation
+
+### Additions to the game
+
+Bullet physics + shoot SFX
