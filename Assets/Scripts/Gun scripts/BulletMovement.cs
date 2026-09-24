@@ -13,7 +13,7 @@ public class BulletMovement : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody>();
         Debug.Log("Bullet fired");
-        rigidBody.linearVelocity = transform.forward * 50f;
+        rigidBody.linearVelocity = transform.forward * 75f;
 
         Invoke(nameof(destroyBullet), 2f);
     }
