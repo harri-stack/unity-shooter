@@ -51,3 +51,25 @@ The bullet prefab had baked co ordinates into it. Debugged using debug.log to na
 ### Additions to the game
 
 Bullet physics + shoot SFX
+
+## 25/09/26
+
+### Problem
+
+Bullets weren't colliding with the drone prefab
+
+### Solution
+
+Added a box collider to the prefab (it didn't come with one for some reason)
+
+### Another problem
+
+Drone would always fly to the same spot
+
+### Solution
+
+The X and Z co ordinates were picking from a pool of random numbers from 20 to 20. It was always 20. I changed it to -20 to 20.
+
+### Additions to the game
+
+Killable enemy with autonomous movement + some SFX
