@@ -1,2 +1,1 @@
-*.shader linguist-vendored
-*.shaderlab linguist-vendored
+Assets/TextMesh Pro/Shaders/** linguist-vendored
