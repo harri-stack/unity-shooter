@@ -204,6 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec297da16f6da141a5ff51c5127e787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Opponentbullets
+  Damage: 10
 --- !u!65 &-4729467052172765291
 BoxCollider:
   m_ObjectHideFlags: 0

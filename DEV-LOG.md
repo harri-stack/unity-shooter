@@ -73,3 +73,23 @@ The X and Z co ordinates were picking from a pool of random numbers from 20 to 2
 ### Additions to the game
 
 Killable enemy with autonomous movement + some SFX
+
+## 26/09/26
+
+### Additions to the game
+
+Drone health UI and player health UI
+
+## 27/09/26
+
+### Additions to the game
+
+Death screen + retry button
+
+## 04/10/26
+
+### Additions to the game
+
+Win screen
+
+# We now have a fully playable game

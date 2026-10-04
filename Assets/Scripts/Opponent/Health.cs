@@ -3,17 +3,21 @@ using Unity.Mathematics;
 using UnityEngine;
 public class Health : MonoBehaviour
 {
-    int health = 100;
+    public int health = 100;
     public GameObject Bullet;
     public GameObject bulletSpawn;
     public GameObject bulletSpawn2;
     public GameObject DeathSoundContainer;
+    public GameObject HitSoundContainer;
     public void takeDamage(int Damage)
     {
+        HitSoundContainer.GetComponent<AudioSource>().Play();
         health = health - Damage;
         if (health < 1)
         {
             DeathSoundContainer.GetComponent<AudioSource>().Play();
+            Opponentcounter opponentCounter = HitSoundContainer.GetComponent<Opponentcounter>();
+            opponentCounter.opponentDied();
             Destroy(gameObject);
             Debug.Log("Drone died");
         }
