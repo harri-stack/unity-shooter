@@ -93,3 +93,17 @@ Death screen + retry button
 Win screen
 
 # We now have a fully playable game
+
+## 05/06/26
+
+### Problem
+
+Map border wasn't rendering player collisions
+
+### Solution
+
+Turned the collider into a trigger (still unsure as to why the collider didn't work)
+
+### Additions to the game
+
+A map border that kills the player
