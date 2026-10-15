@@ -94,7 +94,7 @@ Win screen
 
 # We now have a fully playable game
 
-## 05/06/26
+## 05/10/26
 
 ### Problem
 
@@ -107,3 +107,23 @@ Turned the collider into a trigger (still unsure as to why the collider didn't w
 ### Additions to the game
 
 A map border that kills the player
+
+## 12/10/26
+
+### Additions to the game
+
+Different scene used for difficulty selection UI (currently incomplete)
+
+## 15/10/26
+
+### Problem
+
+Difficulty selection buttons weren't detecting clicks
+
+### Solution
+
+Added an event system
+
+### Additions to the game
+
+Buttons now save the difficulty as an integer from 1-3
