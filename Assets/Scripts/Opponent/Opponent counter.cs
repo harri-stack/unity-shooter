@@ -3,11 +3,12 @@ using UnityEngine;
 
 public class Opponentcounter : MonoBehaviour
 {
-    public int livingOpponents = 2;
+    private int livingOpponents = Gamedata.GameData.Difficulty;
     public AudioSource winSound;
     public GameObject winScreen;
     public void opponentDied()
     {
+        Debug.Log("Living opponents = " + livingOpponents);
         livingOpponents = livingOpponents - 1;
         if(livingOpponents == 0)
         {

@@ -8,7 +8,6 @@ public class DeathscreenUI : MonoBehaviour
     public void Retry()
     {
         Debug.Log("Retry button pressed");
-        Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("DifficultyMenu");
     }
 }

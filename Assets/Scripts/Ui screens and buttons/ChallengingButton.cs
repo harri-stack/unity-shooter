@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class ChallengingButton : MonoBehaviour
 {
@@ -8,5 +9,6 @@ public class ChallengingButton : MonoBehaviour
     {
         Gamedata.GameData.Difficulty = 3;
         Debug.Log("Challenging selected");
+        SceneManager.LoadScene("SampleScene");
     }
 }

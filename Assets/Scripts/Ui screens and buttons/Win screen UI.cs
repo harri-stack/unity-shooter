@@ -9,7 +9,6 @@ public class WinscreenUI : MonoBehaviour
     public void Retry()
     {
         Debug.Log("Retry button pressed");
-        UnityEngine.Cursor.lockState = CursorLockMode.Locked; UnityEngine.Cursor.visible = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("DifficultyMenu");
     }
 }

@@ -5,8 +5,31 @@ using static UnityEngine.GraphicsBuffer;
 public class BulletMovement : MonoBehaviour
 {
     Rigidbody rigidBody;
-    public int Damage = 20;
-    private void destroyBullet()
+    public int Damage = 0;
+
+    private void Start()
+    {
+        if (Gamedata.GameData.Difficulty == 1)
+        {
+            Damage = 20;
+        }
+        else
+        {
+            if (Gamedata.GameData.Difficulty == 2)
+            {
+                Damage = 15;
+            }
+            else
+            {
+                if (Gamedata.GameData.Difficulty == 3)
+                {
+                    Damage = 10;
+                }
+            }
+
+        }
+    }
+private void destroyBullet()
     {
         Destroy(gameObject);
     }
