@@ -133,3 +133,5 @@ Buttons now save the difficulty as an integer from 1-3
 ### Additions to the game
 
 Finished difficulty system; gameplay scripts read the difficulty number and react accordingly
+
+# The game is now finished
