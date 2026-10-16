@@ -128,9 +128,10 @@ Added an event system
 
 Buttons now save the difficulty as an integer from 1-3
 
-# The game is now finished
 ## 16/10/26
 
 ### Additions to the game
 
 Finished difficulty system; gameplay scripts read the difficulty number and react accordingly
+
+# The game is now finished
